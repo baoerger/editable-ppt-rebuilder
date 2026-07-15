@@ -1,0 +1,18 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local credentials and configuration
+.env
+.env.*
+!.env.example
+config.yaml
+config.local.yaml
+
+# Editor and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

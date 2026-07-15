@@ -1,0 +1,6 @@
+opencv-python
+numpy
+pillow
+python-pptx
+pytesseract
+PyYAML

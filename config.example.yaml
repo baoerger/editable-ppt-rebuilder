@@ -1,0 +1,38 @@
+render:
+  dpi: 300
+
+segmentation:
+  granularity: fine
+  min_element_area: auto
+  text_first: true
+  export_plain_background: true
+
+ocr:
+  enabled: true
+  language: chi_sim+eng
+  confidence_threshold: 75
+
+recompose:
+  editable_text: true
+  preserve_text_png_backup: true
+  default_font_family: Arial
+  preserve_source_aspect_ratio: true
+  forbid_unrequested_styling: true
+
+quality_check:
+  enabled: true
+  generate_review_overlays: true
+  generate_crop_visual_audit: true
+  generate_diff_images: true
+  require_powerpoint_render: true
+
+delivery_validation:
+  strict: true
+  aspect_ratio_tolerance: 0.001
+  require_all_readable_text_editable: true
+  require_simple_structure_native: true
+  require_unique_png_ownership: true
+  require_zero_unresolved_reviews: true
+  require_zero_overflow: true
+  require_zero_clipping: true
+  require_zero_duplicate_assets: true

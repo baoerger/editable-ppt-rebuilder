@@ -1,0 +1,4 @@
+interface:
+  display_name: "CodexImage-PPT"
+  short_description: "Rebuild raster slides with strict editable-deck QA"
+  default_prompt: "Use $codeximage-ppt to rebuild raster slides into a source-faithful editable PowerPoint deck and pass the mandatory delivery gates."
