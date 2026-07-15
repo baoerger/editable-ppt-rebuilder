@@ -1,16 +1,16 @@
-# CodexImage-PPT installation
+# Editable PPT Rebuilder installation
 
 ## 给接收附件的 GPT
 
-请将附件安装为本地 Codex Skill。先阅读压缩包中 `codeximage-ppt/INSTALL.md`，再把完整的 `codeximage-ppt` 文件夹安装到 Codex Skills 目录；不要只提取 `SKILL.md`。安装后请验证 Skill 结构，并告诉我是否需要重新启动或新建任务才能识别 `$codeximage-ppt`。
+请将附件安装为本地 Codex Skill。先阅读压缩包中 `editable-ppt-rebuilder/INSTALL.md`，再把完整的 `editable-ppt-rebuilder` 文件夹安装到 Codex Skills 目录；不要只提取 `SKILL.md`。安装后请验证 Skill 结构，并告诉我是否需要重新启动或新建任务才能识别 `$editable-ppt-rebuilder`。
 
-This archive contains one Codex skill. Its user-facing name is `CodexImage-PPT`; its valid internal identifier and folder name are `codeximage-ppt`.
+This archive contains one Codex skill. Its user-facing name is `Editable PPT Rebuilder`; its valid internal identifier and folder name are `editable-ppt-rebuilder`.
 
 ## Instructions for the receiving GPT or Codex agent
 
-1. Extract the archive and locate the `codeximage-ppt` folder containing `SKILL.md`.
-2. Verify that `SKILL.md` declares `name: codeximage-ppt` and that `agents/openai.yaml` uses `$codeximage-ppt` in `default_prompt`.
-3. Install the complete folder at `$CODEX_HOME/skills/codeximage-ppt`. If `CODEX_HOME` is unset, use the platform's normal Codex skills directory, commonly `~/.codex/skills/codeximage-ppt`.
+1. Extract the archive and locate the `editable-ppt-rebuilder` folder containing `SKILL.md`.
+2. Verify that `SKILL.md` declares `name: editable-ppt-rebuilder` and that `agents/openai.yaml` uses `$editable-ppt-rebuilder` in `default_prompt`.
+3. Install the complete folder at `$CODEX_HOME/skills/editable-ppt-rebuilder`. If `CODEX_HOME` is unset, use the platform's normal Codex skills directory, commonly `~/.codex/skills/editable-ppt-rebuilder`.
 4. Do not overwrite an existing skill with the same identifier without the user's approval.
 5. Validate the installed folder with the environment's Skill validator when available, then start a new task or restart/reload Codex if the skill is not discovered immediately.
 

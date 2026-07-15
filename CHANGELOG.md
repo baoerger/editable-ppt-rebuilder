@@ -2,7 +2,7 @@
 
 ## 0.1.0 — 初始版本
 
-- 加入 CodexImage-PPT Skill 主规则和完整安装说明。
+- 加入 Editable PPT Rebuilder Skill 主规则和完整安装说明。
 - 加入 OCR、视觉元素分解、批量处理和严格交付验证脚本。
 - 加入精细重建、清单格式、质量审核和 ImageGen 视觉核心流程文档。
 - 加入中文项目介绍和目录说明。

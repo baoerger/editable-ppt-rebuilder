@@ -1,10 +1,10 @@
 ---
-name: codeximage-ppt
+name: editable-ppt-rebuilder
 description: >-
   Rebuild image-based PPT/PPTX files and slide screenshots into source-faithful editable PowerPoint decks with mandatory delivery validation. Use when converting flattened raster slides into editable text, native PowerPoint structure, and ImageGen-regenerated high-resolution visual cores; when every small icon must follow a reviewed ImageGen green-screen, local alpha-removal, transparency-check, embedding, and audit workflow; when OCR may be incomplete or unreliable; when crop ownership, transparency, visual fidelity, or duplicate-content risks require review; or when a final deck must fail closed unless text editability, native structure, crop integrity, review closure, and PowerPoint-rendered QA all pass. Use scripts/run_batches.py for repeated baseline processing and scripts/validate_delivery.py before final delivery.
 ---
 
-# CodexImage-PPT
+# Editable PPT Rebuilder
 
 ## Purpose
 

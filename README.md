@@ -30,7 +30,7 @@ Editable PPT Rebuilder 是一个用于 Codex 的 PowerPoint 重建 Skill。它�
 ## 目录
 
 ```text
-codeximage-ppt/
+editable-ppt-rebuilder/
 ├── SKILL.md                         # Codex Skill 主规则
 ├── INSTALL.md                       # 安装和运行要求
 ├── config.example.yaml               # 渲染、分割、OCR 和质量检查示例配置
@@ -52,10 +52,10 @@ codeximage-ppt/
 将完整目录安装到 Codex Skills 目录：
 
 ```text
-$CODEX_HOME/skills/codeximage-ppt
+$CODEX_HOME/skills/editable-ppt-rebuilder
 ```
 
-如果没有设置 `CODEX_HOME`，通常使用 `~/.codex/skills/codeximage-ppt`。安装后以 `$codeximage-ppt` 调用。若当前任务没有立即发现新 Skill，请重新加载 Codex 或新建任务。
+如果没有设置 `CODEX_HOME`，通常使用 `~/.codex/skills/editable-ppt-rebuilder`。安装后以 `$editable-ppt-rebuilder` 调用。若当前任务没有立即发现新 Skill，请重新加载 Codex 或新建任务。
 
 安装 Skill 与运行完整工作流是两件事。先安装 `requirements.txt` 中的 Python 依赖；OCR 还需要 Tesseract 和相应语言数据（中文通常需要 `chi_sim`）；最终渲染检查需要 Microsoft PowerPoint 或等效的高保真渲染器；小图标的强制流程需要可用的 ImageGen 能力。
 
