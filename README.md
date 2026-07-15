@@ -1,6 +1,6 @@
-# CodexImage-PPT
+# Editable PPT Rebuilder
 
-CodexImage-PPT 是一个用于 Codex 的 PowerPoint 重建 Skill。它把图片化的 PPT/PPTX 页面或幻灯片截图，重建为可编辑、可审计、经过严格交付验证的 PowerPoint 演示文稿。
+Editable PPT Rebuilder 是一个用于 Codex 的 PowerPoint 重建 Skill。它把图片化的 PPT/PPTX 页面或幻灯片截图，重建为可编辑、可审计、经过严格交付验证的 PowerPoint 演示文稿。
 
 它把源页面当作视觉和文字事实依据：可读文字重建为 PowerPoint 文本框，简单结构重建为原生形状，复杂或风格敏感的图像保留为独立语义 PNG。Skill 不声称能够恢复原始文件中不可见的矢量对象、隐藏文字或原始图表数据。
 
@@ -88,4 +88,3 @@ python scripts/validate_delivery.py <refined_output_dir> --pptx <refined_deck.pp
 ## 局限
 
 图片化输入无法完美恢复原始矢量对象、隐藏内容、图表底层数据或原始编辑层级。ImageGen 生成的是经过审核的视觉核心重建，不应描述为源图标的逐像素复制。对于不可读文字或无法可靠重建的精确标志，应保留人工审核状态，而不是猜测内容。
-
