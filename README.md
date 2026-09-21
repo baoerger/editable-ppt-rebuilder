@@ -1,8 +1,20 @@
 # Editable PPT Rebuilder
 
+> An auditable workflow for turning raster slide references into editable PowerPoint decks.
+
 Editable PPT Rebuilder 是一个用于 Codex 的 PowerPoint 重建 Skill。它把图片化的 PPT/PPTX 页面或幻灯片截图，重建为可编辑、可审计、经过严格交付验证的 PowerPoint 演示文稿。
 
 它把源页面当作视觉和文字事实依据：可读文字重建为 PowerPoint 文本框，简单结构重建为原生形状，复杂或风格敏感的图像保留为独立语义 PNG。Skill 不声称能够恢复原始文件中不可见的矢量对象、隐藏文字或原始图表数据。
+
+## 项目案例：从资料到可编辑学术汇报
+
+本仓库的工作流来自一个 27 页学术汇报制作案例：主题为“南通市‘风光同场’海上光伏集群无人机智能巡检系统”。案例记录的核心方法是**人工主导、AI 辅助**：AI 用于长文档归纳、结构备选、逐页脚本、视觉草案和对象拆解；专业主线、页面取舍、关键数据核对、技术边界判断和最终审核由人工完成。
+
+案例把工作拆成五个阶段：资料研读与内容抽取、总体框架规划、逐页脚本设计、视觉稿生成与迭代、可编辑重建与质量复核。每页先定义唯一的回答任务，再决定文字、原生结构和复杂视觉的表达方式，最后以 PowerPoint 实际渲染结果作为交付检查依据。
+
+![对象拆解与混合重建示例](docs/assets/object-reconstruction-example.png)
+
+这套方法的价值不在于把整页截图塞进 PPT，而在于建立清晰的对象边界：标题和数据可以直接编辑，色块和箭头可以调整，照片和复杂示意图可以独立替换，小图标可以逐个维护。案例中的视觉稿和重建对照图见 [`docs/process-case-study.md`](docs/process-case-study.md)。
 
 ## 能做什么
 
